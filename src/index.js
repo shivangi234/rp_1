@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './App.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Appbar from './Appbar';
+import Card from './Card';
 
+import { StyledEngineProvider } from '@mui/material/styles';
+import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <StyledEngineProvider injectFirst>
+    <Appbar />
+    <Card />
+     <App />
+  
+</StyledEngineProvider>,
   document.getElementById('root')
 );
 

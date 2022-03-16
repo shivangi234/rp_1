@@ -1,25 +1,21 @@
-import logo from './logo.svg';
+import React from 'react';
+
 import './App.css';
+// import Stack from '@mui/material/Stack';
+// import Button from '@mui/material/Button';
+// import Box from '@mui/material/Box';
+// import { Container } from '@material-ui/core';
+// import CssBaseline from '@mui/material/CssBaseline';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+      
+      
+    {/* <h1>Basic button </h1> */}
+    </div>   
   );
 }
-
 export default App;
+
